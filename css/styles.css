@@ -4,6 +4,8 @@ color: #434455;
 background-color: #fff;
 }
 
+/* reset */
+
 ul, ol {
     list-style-type: none;
     margin: 0;
@@ -18,11 +20,15 @@ a {
     text-decoration: none;
 }
 
+/* common */
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 }
+
+/* header */
 
 .page-header {
     border-bottom: 1px solid #e7e9fc;
