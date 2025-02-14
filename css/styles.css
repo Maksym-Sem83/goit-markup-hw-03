@@ -24,7 +24,8 @@ a {
 
 .container {
     max-width: 1158px;
-    padding: 0 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     margin: 0 auto;
 }
 
@@ -109,8 +110,18 @@ a {
     color: #404bbf;
 }
 
+/* solutions */
+
 .solutions {
     background-color: #2e2f42;
+}
+
+.solutions-container {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    
+    
+    
 }
 
 .solutions-title {
@@ -120,6 +131,10 @@ a {
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        max-width: 496px;
+        margin: 0 auto;
+        margin-bottom: 48px;
+       
 }
 
 .solutions-btn {
@@ -131,6 +146,12 @@ a {
     color: #fff;
     cursor: pointer;
     background-color: #4d5ae5;
+    margin: 0 auto;
+    display: block;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: none;
+    
 }
 
 .solutions-btn:hover,
